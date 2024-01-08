@@ -19,8 +19,6 @@ const day = date.getDate();
 const year = date.getFullYear();
 const month = months[monthIndex];
 
-console.log(day)
-
 dateEl.textContent = `${month} ${day}, ${year}`;
 titleEl.textContent = `${month} Memory Verse`;
 
